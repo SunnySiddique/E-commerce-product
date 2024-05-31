@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+:root {
+  --gray-900: rgb(17 24 39);
+  --gray-800: rgb(31 41 55);
+  --gray-700: rgb(55 65 81);
+  --gray-500: rgb(107 114 128);
+  --gray-600: rgb(75 85 99);
+  --gray-400: rgb(31 41 55);
+  --gray-300: rgb(209 213 219);
+  --gray-100: rgb(243 244 246);
+  --gray-50: rgb(249 250 250);
+  --white: rgb(255 255 255);
+  --black: rgb(0 0 0);
+  --primary: rgb(255 0 122);
+  --primary-dark: rgb(25 0 12);
+  --yellow-600: rgb(202 138 4);
+  --red-700: rgb(185 28 28);
+  --footer-theme-bg: #0c55aa;
+  --footer-account-color: #55585b;
+}
+
+.form-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-heading h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--gray-800);
+}
+
+.form-heading h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--gray-800);
+}
+
+.registration-link {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.registration-link:hover {
+  color: var(--primary);
+}
+
+.form-heading span {
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--gray-800);
+}
+
+.form-container {
+  min-height: 60vh;
+  display: grid;
+  place-items: center;
+  padding-bottom: 20px;
+}
+
+.form-content {
+  width: 60%;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.input-group {
+  position: relative;
+  height: 56px;
+  width: 100%;
+}
+
+.form-input {
+  margin-top: 25px;
+}
+
+.input {
+  padding: 0.9rem;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.445);
+  border-radius: 7px !important;
+  border: var(--input-border-size) solid rgba(0, 0, 0, 0.28);
+  border: 1px solid #6b7280;
+  line-height: 1.5rem;
+  font-size: 17px;
+}
+
+.input:hover {
+  --input-border-size: 1.6px;
+  border-color: rgba(0, 0, 0, 0.445);
+}
+
+.placeholder {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  padding: 0px 5px;
+  font-size: 17px;
+  color: #666;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.input:focus {
+  border: 1px solid var(--primary);
+}
+
+.input:focus + .placeholder {
+  top: -10px;
+  color: var(--primary);
+  background-color: #fff;
+  font-size: 13px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 6px;
+  margin-top: 24px;
+  border: none;
+}

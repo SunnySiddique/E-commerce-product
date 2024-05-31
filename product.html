@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>product-page</title>
+
+  <!-- boxIcon cdn -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- boxIcon cdn -->
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="product.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+
+  <!-- header -->
+
+  <header>
+    <nav class="header-container">
+      <div class="container d-none d-md-none d-lg-block">
+        <nav class=" navbar">
+          <div class="logo">
+            <a href="/index.html">
+              <img class="img-fluid d-block" src="./images/logo.jpg" alt="" />
+            </a>
+          </div>
+          <div class="search-bar">
+            <div class="search-icon">
+              <i class='bx bx-search'></i>
+            </div>
+            <input class="search-input" type="text" placeholder="Search makeup, skin care..." />
+            <button class="search-btn" type="button">Search</button>
+          </div>
+          <div class="s-buttons">
+            <i class='bx bx-heart like-icon'></i>
+            <div class="count-item">
+              <p class="count">0</p>
+            </div>
+            <div class="sign-in-btn">
+              <a href="Login.html">
+                <button type="button" class="signin-btn">Sign in</button>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- category start from here -->
+      <div class="category-container d-none d-md-none d-lg-block">
+        <div class=" category-items">
+          <div class="container d-flex justify-content-around align-items-center">
+            <!-- skin care  -->
+            <div class="category-body">
+              <h6 class="category-heading">Skin care</h6>
+              <div class="category-content">
+                <div class="category-items1">
+                  <h6 class="product-heading">Product Types</h6>
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items">Moisturizer</a>
+                    <a href="categoryPage.html" class="product-items">Serum</a>
+                    <a href="categoryPage.html" class="product-items">Cleanser</a>
+                    <a href="categoryPage.html" class="product-items">Essence</a>
+                    <a href="categoryPage.html" class="product-items">Sunscreen</a>
+                    <a href="categoryPage.html" class="product-items">Mask</a>
+                    <a href="categoryPage.html" class="product-items">Soothing Gel</a>
+                    <a href="categoryPage.html" class="product-items">Trial Kit</a>
+                    <a href="categoryPage.html" class="product-items">Hair Care</a>
+                    <a href="categoryPage.html" class="product-items">Cream</a>
+                    <a href="categoryPage.html" class="product-items">Lip Care</a>
+                    <a href="categoryPage.html" class="product-items">Bath & Body</a>
+                    <a href="categoryPage.html" class="product-items">Eye Care</a>
+                  </ul>
+                </div>
+                <div class="category-items2">
+                  <h6 class="product-heading">Skin Types</h6>
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items">Normal</a>
+                    <a href="categoryPage.html" class="product-items">Oily</a>
+                    <a href="categoryPage.html" class="product-items">Dry</a>
+                    <a href="categoryPage.html" class="product-items">Combination</a>
+                    <a href="categoryPage.html" class="product-items">Sensitive</a>
+                    <a href="categoryPage.html" class="product-items">Damaged</a>
+                    <a href="categoryPage.html" class="product-items">All Skin Types</a>
+                  </ul>
+                </div>
+                <div class="category-items3">
+                  <h6 class="product-heading">Skin Concerns</h6>
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items">Acne/Pimples Treatment</a>
+                    <a href="categoryPage.html" class="product-items">Large Pores/Scars Solution</a>
+                    <a href="categoryPage.html" class="product-items">Brightening Solution</a>
+                    <a href="categoryPage.html" class="product-items">Redness/Rashes Solution</a>
+                    <a href="categoryPage.html" class="product-items">Anti-Aging/Wrinkle Care</a>
+                    <a href="categoryPage.html" class="product-items">Dehydration</a>
+                    <a href="categoryPage.html" class="product-items">Dark Circles Treatment</a>
+                    <a href="categoryPage.html" class="product-items">Sun Burn & Damage Control</a>
+                    <a href="categoryPage.html" class="product-items">Blackheads & Whiteheads Care</a>
+                    <a href="categoryPage.html" class="product-items">Pigmentation/Melasma Solution</a>
+                    <a href="categoryPage.html" class="product-items">Oil & Sebum Control</a>
+                    <a href="categoryPage.html" class="product-items">Spot & Blemish Treatment</a>
+                    <a href="categoryPage.html" class="product-items">Hair Loss Care</a>
+                    <a href="categoryPage.html" class="product-items">Anti-Dandruff</a>
+                  </ul>
+                </div>
+                <div class="category-items4">
+                  <h6 class="product-heading">Ingredients</h6>
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items">Niacinamide</a>
+                    <a href="categoryPage.html" class="product-items">Centella Asiatica</a>
+                    <a href="categoryPage.html" class="product-items">Tea Tree</a>
+                    <a href="categoryPage.html" class="product-items">Green Tea</a>
+                    <a href="categoryPage.html" class="product-items">Rice</a>
+                    <a href="categoryPage.html" class="product-items">Snail Mucin</a>
+                    <a href="categoryPage.html" class="product-items">Glutathione</a>
+                    <a href="categoryPage.html" class="product-items">Collagen</a>
+                    <a href="categoryPage.html" class="product-items">Almond Oil</a>
+                    <a href="categoryPage.html" class="product-items">Aloe Vera</a>
+                    <a href="categoryPage.html" class="product-items">Argan Oil</a>
+                    <a href="categoryPage.html" class="product-items">Artemisia</a>
+                    <a href="categoryPage.html" class="product-items">Ascorbic Acid (Vitamin C)</a>
+                    <a href="categoryPage.html" class="product-items">Beta-Glucan</a>
+                    <a href="categoryPage.html" class="product-items">Ceramide NP</a>
+                    <a href="categoryPage.html" class="product-items">Ginseng</a>
+                    <a href="categoryPage.html" class="product-items">Glycerin</a>
+                    <a href="categoryPage.html" class="product-items">Gold</a>
+                    <a href="categoryPage.html" class="product-items">Honey</a>
+                    <a href="categoryPage.html" class="product-items">Moringa</a>
+                    <a href="categoryPage.html" class="product-items">Mugwort</a>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <!-- skin care  -->
+
+            <!-- Make up -->
+            <div class="category-body">
+              <h6 class="category-heading">Make Up</h6>
+              <div class="category-content2">
+                <div class="category-items1">
+                  <h6 class="product-heading">Face Makeup</h6>
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items">Face Primer</a>
+                    <a href="categoryPage.html" class="product-items">Foundation</a>
+                    <a href="categoryPage.html" class="product-items">Loose Powder</a>
+                    <a href="categoryPage.html" class="product-items">Setting Spray</a>
+                    <a href="categoryPage.html" class="product-items">Bronze & <br> Contour</a>
+                    <a href="categoryPage.html" class="product-items">Blush</a>
+                    <a href="categoryPage.html" class="product-items">Highlight</a>
+                    <a href="categoryPage.html" class="product-items">BB & <br> CC Cream</a>
+                    <a href="categoryPage.html" class="product-items">Makeup <br> Remover</a>
+                  </ul>
+                </div>
+                <div class="category-items2">
+                  <h6 class="product-heading">Eyes Makeup</h6>
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items">Eyeliner</a>
+                    <a href="categoryPage.html" class="product-items">Pencil</a>
+                    <a href="categoryPage.html" class="product-items">Eyes Concealer</a>
+                    <a href="categoryPage.html" class="product-items">Eyeshadow</a>
+                    <a href="categoryPage.html" class="product-items">Eyebrow</a>
+                    <a href="categoryPage.html" class="product-items">Eyelash</a>
+                    <a href="categoryPage.html" class="product-items">Mascara</a>
+                  </ul>
+                </div>
+                <div class="category-items3">
+                  <h6 class="product-heading">Lips Care</h6>
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items">Lipstick</a>
+                    <a href="categoryPage.html" class="product-items">Liquid Lipstick</a>
+                    <a href="categoryPage.html" class="product-items">Lip Balm</a>
+                    <a href="categoryPage.html" class="product-items">Gloss</a>
+                  </ul>
+                </div>
+                <div class="category-items4">
+                  <h6 class="product-heading">Nails Care</h6>
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items">Nail Polish</a>
+                    <a href="categoryPage.html" class="product-items">Nail Art</a>
+                    <a href="categoryPage.html" class="product-items">Polish Remover</a>
+                    <a href="categoryPage.html" class="product-items">False Nails</a>
+                  </ul>
+                </div>
+                <div class="category-items4">
+                  <h6 class="product-heading">Brushes & Accessories</h6>
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items">Lip and Eyebrow & Brush</a>
+                    <a href="categoryPage.html" class="product-items">Eye Brush</a>
+                    <a href="categoryPage.html" class="product-items">Brush Sets</a>
+                    <a href="categoryPage.html" class="product-items">Sponges & <br> Applicators</a>
+                    <a href="categoryPage.html" class="product-items">Foundation<br> Brush</a>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <!-- Make up -->
+
+            <!-- Food  -->
+            <div class="category-body">
+              <h6 class="category-heading">Food</h6>
+              <div class="category-content3">
+                <div class="category-items1">
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items">Noodles</a>
+                    <a href="categoryPage.html" class="product-items">Green Tea</a>
+                    <a href="categoryPage.html" class="product-items">Test</a>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <!-- Food  -->
+
+            <!-- Eid Sale -->
+            <div class="category-body">
+              <h6 class="category-heading">Eid Sale</h6>
+              <div class="category-content4">
+                <div class="category-items1">
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items"></a>
+                    <a href="categoryPage.html" class="product-items"></a>
+                    <a href="categoryPage.html" class="product-items"></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Eid Sale -->
+
+            <!-- Brand -->
+            <div class="category-body">
+              <a style="text-decoration: none;" href="./brand.html">
+                <h6 class="category-heading">Brand</h6>
+              </a>
+            </div>
+            <!-- Brand -->
+
+            <!-- Join as seller -->
+            <div class="category-body">
+              <h6 class="category-heading">Join As Seller</h6>
+            </div>
+            <!-- Join as seller -->
+
+          </div>
+        </div>
+      </div>
+      <!-- category start from here -->
+
+      <!-- responsive category -->
+      <div class="container d-lg-none d-md-block">
+        <div class="responsive-navbar">
+          <div class="res-menu-icon" id="res-menu-icon">
+            <i class='bx bx-menu'></i>
+          </div>
+          <div class="res-logo">
+            <img class="img-fluid" src="./images/logo.jpg" alt="">
+          </div>
+          <div class="heart-icon">
+            <i class='bx bx-heart'></i>
+          </div>
+        </div>
+        <div class="search-bar d-flex justify-content-center align-items-center w-100">
+          <input class="res-search-input" type="text" placeholder="Search makeup, skin care..." />
+          <button class="res-search-btn" type="button">
+            <i class='bx bx-search'></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="res-sidebar">
+        <div class="sidebar" id="sidebar">
+          <div class="accordion" id="accordionExample">
+
+            <!-- Accordion one -->
+            <div class="accordion-item border-none">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Skin Care
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="accordion" id="sub-accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="sub-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#sub-collapseOne" aria-expanded="false" aria-controls="sub-collapseOne">
+                          Product Types
+                        </button>
+                      </h2>
+                      <div id="sub-collapseOne" class="accordion-collapse collapse" aria-labelledby="sub-headingOne"
+                        data-bs-parent="#sub-accordionExample">
+                        <div class="accordion-body">
+                          <ul class="product-main second-pro-item">
+                            <a href="categoryPage.html" class="product-items border-bottom">Moisturizer</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Serum</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Cleanser</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Essence</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Sunscreen</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Mask</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Soothing Gel</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Trial Kit</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Hair Care</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Cream</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Lip Care</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Bath & Body</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Eye Care</a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="sub-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#sub-collapseTwo" aria-expanded="false" aria-controls="sub-collapseTwo">
+                          Skin Types
+                        </button>
+                      </h2>
+                      <div id="sub-collapseTwo" class="accordion-collapse collapse" aria-labelledby="sub-headingTwo"
+                        data-bs-parent="#sub-accordionExample">
+                        <div class="accordion-body">
+                          <ul class="product-main second-pro-item">
+                            <a href="categoryPage.html" class="product-items border-bottom">Normal</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Oily</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Dry</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Combination</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Sensitive</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Damaged</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">All Skin Types</a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="sub-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#sub-collapseThree" aria-expanded="false" aria-controls="sub-collapseThree">
+                          Skin Concern
+                        </button>
+                      </h2>
+                      <div id="sub-collapseThree" class="accordion-collapse collapse" aria-labelledby="sub-headingThree"
+                        data-bs-parent="#sub-accordionExample">
+                        <div class="accordion-body">
+                          <ul class="product-main second-pro-item">
+                            <a href="categoryPage.html" class="product-items border-bottom">Acne/Pimples Treatment</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Large Pores/Scars
+                              Solution</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Brightening Solution</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Redness/Rashes Solution</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Anti-Aging/Wrinkle Care</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Dehydration</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Dark Circles Treatment</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Sun Burn & Damage
+                              Control</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Blackheads & Whiteheads
+                              Care</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Pigmentation/Melasma
+                              Solution</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Oil & Sebum Control</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Spot & Blemish Treatment</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Hair Loss Care</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Anti-Dandruff</a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="sub-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#sub-collapseThree" aria-expanded="false" aria-controls="sub-collapseThree">
+                          Ingredients
+                        </button>
+                      </h2>
+                      <div id="sub-collapseThree" class="accordion-collapse collapse" aria-labelledby="sub-headingThree"
+                        data-bs-parent="#sub-accordionExample">
+                        <div class="accordion-body">
+                          <ul class="product-main second-pro-item">
+                            <a href="categoryPage.html" class="product-items border-bottom">Niacinamide</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Centella Asiatica</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Tea Tree</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Green Tea</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Rice</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Snail Mucin</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Glutathione</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Collagen</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Almond Oil</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Aloe Vera</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Argan Oil</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Artemisia</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Ascorbic Acid (Vitamin
+                              C)</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Beta-Glucan</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Ceramide NP</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Ginseng</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Glycerin</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Gold</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Honey</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Moringa</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Mugwort</a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Accordion one -->
+
+
+            <!-- Accordion two -->
+            <div class="accordion-item border-none">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Make Up
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="accordion" id="sub-accordionExampleTwo">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="sub-headingTwoOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#sub-collapseTwoOne" aria-expanded="false" aria-controls="sub-collapseTwoOne">
+                          Face Makeup
+                        </button>
+                      </h2>
+                      <div id="sub-collapseTwoOne" class="accordion-collapse collapse"
+                        aria-labelledby="sub-headingTwoOne" data-bs-parent="#sub-accordionExampleTwo">
+                        <div class="accordion-body">
+                          <ul class="product-main">
+                            <a href="categoryPage.html" class="product-items border-bottom">Face Primer</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Foundation</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Loose Powder</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Setting Spray</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Bronze & <br> Contour</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Blush</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Highlight</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">BB & <br> CC Cream</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Makeup <br> Remover</a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="sub-headingTwoTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#sub-collapseTwoTwo" aria-expanded="false" aria-controls="sub-collapseTwoTwo">
+                          Eyes Makeup
+                        </button>
+                      </h2>
+                      <div id="sub-collapseTwoTwo" class="accordion-collapse collapse"
+                        aria-labelledby="sub-headingTwoTwo" data-bs-parent="#sub-accordionExampleTwo">
+                        <div class="accordion-body">
+                          <ul class="product-main">
+                            <a href="categoryPage.html" class="product-items border-bottom">Eyeliner</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Pencil</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Eyes Concealer</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Eyeshadow</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Eyebrow</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Eyelash</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Mascara</a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="sub-headingTwoThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#sub-collapseTwoThree" aria-expanded="false"
+                          aria-controls="sub-collapseTwoThree">
+                          Lips Care
+                        </button>
+                      </h2>
+                      <div id="sub-collapseTwoThree" class="accordion-collapse collapse"
+                        aria-labelledby="sub-headingTwoThree" data-bs-parent="#sub-accordionExampleTwo">
+                        <div class="accordion-body">
+                          <ul class="product-main">
+                            <a href="categoryPage.html" class="product-items border-bottom">Lipstick</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Liquid Lipstick</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Lip Balm</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Gloss</a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="sub-headingTwoFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#sub-collapseTwoFour" aria-expanded="false"
+                          aria-controls="sub-collapseTwoFour">
+                          Nails Care
+                        </button>
+                      </h2>
+                      <div id="sub-collapseTwoFour" class="accordion-collapse collapse"
+                        aria-labelledby="sub-headingTwoFour" data-bs-parent="#sub-accordionExampleTwo">
+                        <div class="accordion-body">
+                          <ul class="product-main">
+                            <a href="categoryPage.html" class="product-items border-bottom">Nail Polish</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Nail Art</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Polish Remover</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">False Nails</a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="sub-headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#sub-collapseTwoFive" aria-expanded="false"
+                          aria-controls="sub-collapseTwoFive">
+                          Brushes & Accessories
+                        </button>
+                      </h2>
+                      <div id="sub-collapseTwoFive" class="accordion-collapse collapse"
+                        aria-labelledby="sub-headingTwoFive" data-bs-parent="#sub-accordionExampleTwo">
+                        <div class="accordion-body">
+                          <ul class="product-main">
+                            <a href="categoryPage.html" class="product-items border-bottom">Lip and Eyebrow & Brush</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Eye Brush</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Brush Sets</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Sponges & <br>
+                              Applicators</a>
+                            <a href="categoryPage.html" class="product-items border-bottom">Foundation<br> Brush</a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Accordion two -->
+
+
+            <!-- Accordion three -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Food
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items border-bottom">Noodles</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Green Tea</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Test</a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Accordion three -->
+
+
+            <!-- Accordion Four -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Eid Sale
+                </button>
+              </h2>
+            </div>
+            <!-- Accordion Four -->
+
+
+            <!-- Accordion Five -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Brand
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="product-main">
+                    <a href="categoryPage.html" class="product-items border-bottom">Niacinamide</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Centella Asiatica</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Tea Tree</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Green Tea</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Rice</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Snail Mucin</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Glutathione</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Collagen</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Almond Oil</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Aloe Vera</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Argan Oil</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Artemisia</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Ascorbic Acid (Vitamin C)</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Beta-Glucan</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Ceramide NP</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Ginseng</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Glycerin</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Gold</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Honey</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Moringa</a>
+                    <a href="categoryPage.html" class="product-items border-bottom">Mugwort</a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Accordion Five -->
+
+
+
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="footer-menu mobile-footer-nav-container">
+      <ul class="container mobile-footer-nav-items-container">
+        <li class="mobile-footer-nav-item">
+          <a href="/" class="whislist-icons">
+            <i class='bx bx-home home-icon'></i>
+            <span class="text-xs">Home</span>
+          </a>
+        </li>
+        <li class="mobile-footer-nav-item ">
+          <i class='bx bx-category' id="category_menu_icon"></i>
+          <span class="text-xs">Category</span>
+        </li>
+        <li class="mobile-footer-nav-item " id="cart_view_btn_container">
+          <i class='bx bx-cart'></i>
+          <span class="text-xs">Cart</span>
+        </li>
+        <li class="mobile-footer-nav-item">
+          <a href="/login.html" class="whislist-icons">
+            <i class='bx bxs-user wishlist-icon'></i>
+            <span class="text-xs">Account</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- header -->
+
+
+  <!-- shopping cart  -->
+  <section>
+
+    <div id="cart_view_btn_containers" class="cart-view-btn-container">
+      <div class="cart-view-icon-container">
+        <i class='bx bx-cart'></i>
+      </div>
+      <h6>0 Items</h6>
+    </div>
+
+
+    <div id="shopping_cart" class="cart-container shopping-cart-container">
+      <div class="cart-bg"></div>
+      <div class="cart-fixed">
+        <div class="cart-absolute">
+          <div class="cart-main-container">
+            <div class="cart-another-div">
+              <div class="cart-main-content-container">
+                <div class="full-cart-container all-page-stiky-padding-top">
+                  <div class="cart-header">
+                    <h2 class="cart-header-title">Shopping cart</h2>
+                    <div class="cart-cross-btn-container">
+                      <button type="button" id="closeBtn">
+                        <span class="sr-only">Close panel</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                          stroke="currentColor" aria-hidden="true" class="delete-icon">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="mt-8">
+                    <div class="flow-root">
+                      <ul role="list" class="cart-body-container">
+                        <li class="cart-body-product-list">
+                          <div class="cart-product-img-container">
+                            <img src="./images/product-image-10.jpg" alt="cart image"
+                              class="h-full w-full object-cover object-center">
+                          </div>
+                          <div class="cart-product-info-container">
+                            <div>
+                              <div class="cart-name-price-container">
+                                <h3 class="cart-name"><a href="#">Acwell Licorice pH B...</a></h3>
+                                <p class="cart-price">1200</p>
+                              </div>
+                            </div>
+                            <div class="qty-delete-container">
+                              <div class="qty-container">
+                                <div class="plus-minus-container">
+                                  <i class="bx bx-minus fa-minus decreaseBtn"></i>
+                                </div>
+                                <input type="text" value="1" required="required" class="qty-input" disabled>
+                                <div class="plus-minus-container">
+                                  <i class="bx bx-plus fa-plus increaseBtn"></i>
+                                </div>
+                              </div>
+                              <div class="flex">
+                                <button type="button">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="delete-icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                      d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0">
+                                    </path>
+                                  </svg>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="cart-body-product-list">
+                          <div class="cart-product-img-container">
+                            <img src="./images/product-image-7.jpg" alt="cart image"
+                              class="h-full w-full object-cover object-center">
+                          </div>
+                          <div class="cart-product-info-container">
+                            <div>
+                              <div class="cart-name-price-container">
+                                <h3 class="cart-name"><a href="#">Acwell Licorice pH B...</a></h3>
+                                <p class="cart-price">1200</p>
+                              </div>
+                            </div>
+                            <div class="qty-delete-container">
+                              <div class="qty-container">
+                                <div class="plus-minus-container">
+                                  <i class="bx bx-minus fa-minus decreaseBtn"></i>
+                                </div>
+                                <input type="text" value="1" required="required" class="qty-input" disabled>
+                                <div class="plus-minus-container">
+                                  <i class="bx bx-plus fa-plus increaseBtn"></i>
+                                </div>
+                              </div>
+                              <div class="flex">
+                                <button type="button">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="delete-icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                      d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0">
+                                    </path>
+                                  </svg>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="cart-body-product-list">
+                          <div class="cart-product-img-container">
+                            <img src="./images/product-image-4.jpg" alt="cart image"
+                              class="h-full w-full object-cover object-center">
+                          </div>
+                          <div class="cart-product-info-container">
+                            <div>
+                              <div class="cart-name-price-container">
+                                <h3 class="cart-name"><a href="#">Acwell Licorice pH B...</a></h3>
+                                <p class="cart-price">1200</p>
+                              </div>
+                            </div>
+                            <div class="qty-delete-container">
+                              <div class="qty-container">
+                                <div class="plus-minus-container">
+                                  <i class="bx bx-minus fa-minus decreaseBtn"></i>
+                                </div>
+                                <input type="text" value="1" required="required" class="qty-input" disabled>
+                                <div class="plus-minus-container">
+                                  <i class="bx bx-plus fa-plus increaseBtn"></i>
+                                </div>
+                              </div>
+                              <div class="flex">
+                                <button type="button">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="delete-icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                      d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0">
+                                    </path>
+                                  </svg>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-calculation-container">
+                  <div class="sub-total-container">
+                    <p>Subtotal</p>
+                    <p>0</p>
+                  </div>
+                  <p class="shipping-text">
+                    Shipping and taxes calculated at checkout.
+                  </p>
+                  <div class="mt-6"><a href="/user/Checkout" class="checkout-btn">Checkout
+                    </a></div>
+                  <div class="continue-btn-container">
+                    <p>
+                      or
+                      <a href="/" type="button" class="continue-btn">
+                        Continue Shopping
+                        <span aria-hidden="true"> →</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- shopping cart  -->
+
+
+  <main>
+    <!-- product details -->
+    <section class="container product-details-section-container">
+      <div>
+        <div class="details-main-img-container">
+          <div class="vh-outer vh-rel">
+            <img src="./images/product-image-7.jpg" loading="eager" class="single-product-image">
+          </div>
+        </div>
+        <div class="product-details-img-options">
+          <div class="img-option-container img-active">
+            <img src="./images/product-image-7.jpg" alt="" class="w-full h-full -active-border">
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4 class="product-details-title">
+          The YEON vita7 c-nergy vitamin cream – 100ml
+        </h4>
+        <div class="product-code-price-container">
+          <h4>
+            Code: <span>1515</span></h4>
+          <div class="product-details-price-container">
+            <h6 class="sale-price">1650 BDT</h6>
+          </div>
+        </div>
+        <div class="qty-btn-container">
+          <div class="qty-container">
+            <div class="plus-minus-container">
+              <i class='bx bx-minus fa-minus' id="decreaseBtn"></i>
+            </div>
+            <input type="text" value="1" required="required" class="qty-input" disabled>
+            <div class="plus-minus-container">
+              <i class='bx bx-plus fa-plus' id="increaseBtn"></i>
+            </div>
+          </div>
+          <div class="product-details-btn-container"><button class="product-details-cart-btn">
+              Add To Cart
+            </button> <button class="product-details-buy-btn">
+              Buy Now
+            </button>
+            <div class="product-details-wish-btn"><i class="fa-regular fa-heart"></i></div>
+          </div>
+        </div>
+        <div class="other-contacts-container">
+          <div class="payments-container">
+            <div class="payment-information">
+              <div class="payment-icon"><img src="./images/bkash.png" alt="">
+              </div>
+              <p>01861043391</p>
+            </div>
+            <div class="payment-information">
+              <div class="payment-icon"><img src="./images/bkash.png" alt="">
+              </div>
+              <p>01754556443</p>
+            </div>
+            <div class="payment-information">
+              <div class="payment-icon"><img src="./images/bkash.png" alt="">
+              </div>
+              <p>01754556443</p>
+            </div>
+          </div>
+        </div>
+        <ul class="additional-information-container">
+          <li><i class="fa-solid fa-check"></i> Order today and receive
+            it within 02 -
+            03 days
+          </li>
+          <li><i class="fa-solid fa-thumbs-up"></i> Original Product
+          </li>
+          <li><i class="fa-solid fa-handshake"></i> Cash On Delivery
+            Available</li>
+          <li><i class="fa-solid fa-truck"></i> Delivery Charge Inside
+            Dhaka
+            70 TK
+          </li>
+          <li><i class="fa-solid fa-truck"></i> Delivery Charge Outside
+            Dhaka
+            120 TK
+          </li>
+        </ul>
+        <div class="hotlines"><a href="https://wa.me/+" class="details-whats-app"><i class="fa-brands fa-whatsapp"></i>
+            <p>Ask For Details</p>
+          </a> <a href="tel:01754176504">
+            Hotline: 01754176504
+          </a></div>
+      </div>
+    </section>
+    <!-- product details -->
+
+    <section class="mt-5">
+      <div class="container">
+        <div class="product-details-tab-btn-container">
+          <button class="tablinks product-details-tab-btn tab-active" id="tabOne">
+            Additional Information
+          </button>
+          <button class="tablinks product-details-tab-btn" id="tabTwo">
+            Description
+          </button>
+          <button class="tablinks product-details-tab-btn" id="tabThree">
+            How To Buy
+          </button>
+          <button class="tablinks product-details-tab-btn" id="tabFour">
+            Return Policy
+          </button>
+        </div>
+        <div class="tabcontent product-details-tab-description">
+          <div class="product-description-table-flex">
+            <div class="product-information-table">
+              <div class="tab-1">
+                <h6>Skin Types</h6>
+                <p class="tab-p">
+                  <span>
+                    All Skin Types,
+                  </span>
+                </p>
+              </div>
+              <div class="tab-2">
+                <p>The YEON vita7 c-nergy vitamin cream is a skincare product that aims to provide a
+                  brightening and revitalizing effect to the skin. The cream is formulated with a
+                  potent blend of seven vitamins, including Vitamin C, E, and B5, as well as natural
+                  plant extracts like sea buckthorn and centella asiatica.The cream is designed to
+                  provide intense hydration to the skin while brightening and reducing the appearance
+                  of dark spots and hyperpigmentation. It also helps to strengthen the skin barrier
+                  and protect it from environmental stressors, leaving the skin looking and feeling
+                  revitalized.The cream has a light and non-greasy texture, making it suitable for all
+                  skin types. It is also free from parabens, sulfates, and artificial fragrances,
+                  making it a great choice for those with sensitive skin.</p>
+                <p>
+                  <strong>key benefits:</strong>
+                </p>
+                <ul>
+                  <li><strong>Brightening:</strong> The high concentration of vitamin C and other
+                    antioxidants in the cream can help brighten the skin, reduce the appearance of
+                    dark spots, and even out the skin tone.</li>
+                  <li><strong>Hydrating:</strong> The cream is formulated with hyaluronic acid, which
+                    is a powerful humectant that can help to deeply hydrate the skin, leaving it
+                    feeling plump and moisturized.</li>
+                  <li><strong>Anti-aging:</strong> The cream contains various vitamins and
+                    antioxidants that can help to fight the signs of aging by protecting the skin
+                    from environmental stressors, promoting collagen production, and reducing the
+                    appearance of fine lines and wrinkles.</li>
+                  <li><strong>Soothing:</strong> The cream contains Centella Asiatica extract, which
+                    is known for its soothing and healing properties. This ingredient can help to
+                    calm irritated skin, reduce redness, and promote faster healing of acne scars.
+                  </li>
+                  <li><strong>Nourishing:</strong> The cream also contains a blend of nourishing oils
+                    and extracts, including jojoba oil, avocado oil, and chamomile extract, which
+                    can help to provide the skin with essential nutrients and vitamins for a
+                    healthier, more radiant complexion.</li>
+                </ul>
+                <p><strong>key ingredients:</strong></p>
+                <ul>
+                  <li>Vitamin C: Helps to brighten and even out skin tone, as well as stimulate
+                    collagen production for firmer skin.</li>
+                  <li>Niacinamide: Improves the appearance of enlarged pores, uneven skin tone, and
+                    fine lines.</li>
+                  <li>Adenosine: Aids in reducing the appearance of fine lines and wrinkles.</li>
+                  <li>Panthenol: Also known as vitamin B5, it helps to soothe and hydrate the skin.
+                  </li>
+                  <li>Betaine: A natural humectant that helps to retain moisture in the skin.</li>
+                  <li>Centella Asiatica Extract: A soothing ingredient that helps to calm and repair
+                    the skin.</li>
+                  <li>Portulaca Oleracea Extract: A plant extract that has anti-inflammatory and
+                    antioxidant properties, helping to soothe and protect the skin.</li>
+                </ul>
+                <p><strong>how to use:</strong></p>
+                <ul>
+                  <li>After cleansing and toning, take an appropriate amount of the cream and apply it
+                    evenly over your face and neck.</li>
+                  <li>Gently massage the cream into your skin using upward and outward motions.</li>
+                  <li>Allow the cream to absorb fully into your skin before applying any additional
+                    products.</li>
+                </ul>
+                <p>&nbsp;</p>
+                <p>It is recommended to use the cream in your morning and/or evening skincare routine.
+                </p>
+                <p>&nbsp;</p>
+              </div>
+              <div class="tab-3">
+                <ul>
+                  <li class="h-b-li">Select number of product you want to buy.</li>
+                  <li class="h-b-li">Click <strong>Add To
+                      Cart</strong> Button</li>
+                  <li class="h-b-li">Then go to checkout page</li>
+                  <li class="h-b-li">
+                    If you are a new customer, please click on Sign Up.provide us your valid
+                    information information.
+                  </li>
+                  <li class="h-b-li">
+                    Complete your checkout, we received your order, and for order
+                    confirmation or customer service contact with you
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-4">
+                <ul>
+                  <li class="h-b-li">
+                    If your product is damaged, defective, incorrect or incomplete at the
+                    time of delivery, please file a return request on call to customer care
+                    support number within 3 days of the delivery date
+                  </li>
+                  <li class="h-b-li">
+                    Change of mind is not applicable as a Return Reason for this product
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h3 class="related-heading">Related Products</h3>
+        <div class="all-product-container">
+          <a href="./product.html" class="product">
+            <div class="product-content">
+              <div class="product-img">
+                <img src="./images/product-image-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="product-discount">
+                <span>
+                  <span class="top-s-discount">
+                    <p class="product-title">
+                      - 17%
+                    </p>
+                  </span>
+                </span>
+              </div>
+              <div class="like-icon-container">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="pro-btn">
+                <button class="product-add-cart">
+                  Add To Cart
+                </button>
+              </div>
+
+              <div class="product-details">
+                <h4>Eunyul Lab Acne Solution Calamine Spot Cream 30 ml</h4>
+                <div class="price-container">
+                  <p class="text-black">999 BDT</p> <span>
+                    <p class="text-gray-600 line-through">1050 BDT</p>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </a>
+
+          <a href="./product.html" class="product">
+            <div class="product-content">
+              <div class="product-img">
+                <img src="./images/product-image-4.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="product-discount">
+                <span>
+                  <span class="top-s-discount">
+                    <p class="product-title">
+                      - 17%
+                    </p>
+                  </span>
+                </span>
+              </div>
+              <div class="like-icon-container">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="pro-btn">
+                <button class="product-add-cart">
+                  Add To Cart
+                </button>
+              </div>
+
+              <div class="product-details">
+                <h4>Eunyul Lab Acne Solution Calamine Spot Cream 30 ml</h4>
+                <div class="price-container">
+                  <p class="text-black">999 BDT</p> <span>
+                    <p class="text-gray-600 line-through">1050 BDT</p>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </a>
+
+          <a href="./product.html" class="product">
+            <div class="product-content">
+              <div class="product-img">
+                <img src="./images/product-image-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="product-discount">
+                <span>
+                  <span class="top-s-discount">
+                    <p class="product-title">
+                      - 17%
+                    </p>
+                  </span>
+                </span>
+              </div>
+              <div class="like-icon-container">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="pro-btn">
+                <button class="product-add-cart">
+                  Add To Cart
+                </button>
+              </div>
+
+              <div class="product-details">
+                <h4>Eunyul Lab Acne Solution Calamine Spot Cream 30 ml</h4>
+                <div class="price-container">
+                  <p class="text-black">999 BDT</p> <span>
+                    <p class="text-gray-600 line-through">1050 BDT</p>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </a>
+
+          <a href="./product.html" class="product">
+            <div class="product-content">
+              <div class="product-img">
+                <img src="./images/product-image-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="product-discount">
+                <span>
+                  <span class="top-s-discount">
+                    <p class="product-title">
+                      - 17%
+                    </p>
+                  </span>
+                </span>
+              </div>
+              <div class="like-icon-container">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="pro-btn">
+                <button class="product-add-cart">
+                  Add To Cart
+                </button>
+              </div>
+
+              <div class="product-details">
+                <h4>Eunyul Lab Acne Solution Calamine Spot Cream 30 ml</h4>
+                <div class="price-container">
+                  <p class="text-black">999 BDT</p> <span>
+                    <p class="text-gray-600 line-through">1050 BDT</p>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </a>
+
+          <a href="./product.html" class="product">
+            <div class="product-content">
+              <div class="product-img">
+                <img src="./images/product-image-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="product-discount">
+                <span>
+                  <span class="top-s-discount">
+                    <p class="product-title">
+                      - 17%
+                    </p>
+                  </span>
+                </span>
+              </div>
+              <div class="like-icon-container">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="pro-btn">
+                <button class="product-add-cart">
+                  Add To Cart
+                </button>
+              </div>
+
+              <div class="product-details">
+                <h4>Eunyul Lab Acne Solution Calamine Spot Cream 30 ml</h4>
+                <div class="price-container">
+                  <p class="text-black">999 BDT</p> <span>
+                    <p class="text-gray-600 line-through">1050 BDT</p>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </a>
+
+          <a href="./product.html" class="product">
+            <div class="product-content">
+              <div class="product-img">
+                <img src="./images/product-image-4.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="product-discount">
+                <span>
+                  <span class="top-s-discount">
+                    <p class="product-title">
+                      - 17%
+                    </p>
+                  </span>
+                </span>
+              </div>
+              <div class="like-icon-container">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="pro-btn">
+                <button class="product-add-cart">
+                  Add To Cart
+                </button>
+              </div>
+
+              <div class="product-details">
+                <h4>Eunyul Lab Acne Solution Calamine Spot Cream 30 ml</h4>
+                <div class="price-container">
+                  <p class="text-black">999 BDT</p> <span>
+                    <p class="text-gray-600 line-through">1050 BDT</p>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </a>
+
+          <a href="./product.html" class="product">
+            <div class="product-content">
+              <div class="product-img">
+                <img src="./images/product-image-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="product-discount">
+                <span>
+                  <span class="top-s-discount">
+                    <p class="product-title">
+                      - 17%
+                    </p>
+                  </span>
+                </span>
+              </div>
+              <div class="like-icon-container">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="pro-btn">
+                <button class="product-add-cart">
+                  Add To Cart
+                </button>
+              </div>
+
+              <div class="product-details">
+                <h4>Eunyul Lab Acne Solution Calamine Spot Cream 30 ml</h4>
+                <div class="price-container">
+                  <p class="text-black">999 BDT</p> <span>
+                    <p class="text-gray-600 line-through">1050 BDT</p>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </a>
+
+          <a href="./product.html" class="product">
+            <div class="product-content">
+              <div class="product-img">
+                <img src="./images/product-image-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="product-discount">
+                <span>
+                  <span class="top-s-discount">
+                    <p class="product-title">
+                      - 17%
+                    </p>
+                  </span>
+                </span>
+              </div>
+              <div class="like-icon-container">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="pro-btn">
+                <button class="product-add-cart">
+                  Add To Cart
+                </button>
+              </div>
+
+              <div class="product-details">
+                <h4>Eunyul Lab Acne Solution Calamine Spot Cream 30 ml</h4>
+                <div class="price-container">
+                  <p class="text-black">999 BDT</p> <span>
+                    <p class="text-gray-600 line-through">1050 BDT</p>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </a>
+
+          <a href="./product.html" class="product">
+            <div class="product-content">
+              <div class="product-img">
+                <img src="./images/product-image-4.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="product-discount">
+                <span>
+                  <span class="top-s-discount">
+                    <p class="product-title">
+                      - 17%
+                    </p>
+                  </span>
+                </span>
+              </div>
+              <div class="like-icon-container">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="pro-btn">
+                <button class="product-add-cart">
+                  Add To Cart
+                </button>
+              </div>
+
+              <div class="product-details">
+                <h4>Eunyul Lab Acne Solution Calamine Spot Cream 30 ml</h4>
+                <div class="price-container">
+                  <p class="text-black">999 BDT</p> <span>
+                    <p class="text-gray-600 line-through">1050 BDT</p>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </a>
+
+          <a href="./product.html" class="product">
+            <div class="product-content">
+              <div class="product-img">
+                <img src="./images/product-image-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="product-discount">
+                <span>
+                  <span class="top-s-discount">
+                    <p class="product-title">
+                      - 17%
+                    </p>
+                  </span>
+                </span>
+              </div>
+              <div class="like-icon-container">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="pro-btn">
+                <button class="product-add-cart">
+                  Add To Cart
+                </button>
+              </div>
+
+              <div class="product-details">
+                <h4>Eunyul Lab Acne Solution Calamine Spot Cream 30 ml</h4>
+                <div class="price-container">
+                  <p class="text-black">999 BDT</p> <span>
+                    <p class="text-gray-600 line-through">1050 BDT</p>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- footer start from here -->
+  <footer class="footer-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-3 col-md-4 col-sm-6">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <img src="./images/footer-logo.png" class="img-fluid" alt="">
+            </div>
+            <p class="footer-desc">Shofy is a powerful tool eCommerce Laravel script for creating a
+              professional and
+              visually appealing online store.</p>
+            <div class="footer-icon">
+              <div class="icon">
+                <i class='bx bxl-facebook'></i>
+              </div>
+              <div class="icon">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                  <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
+                </svg>
+              </div>
+              <div class="icon">
+                <i class='bx bxl-youtube'></i>
+              </div>
+              <div class="icon">
+                <i class='bx bxl-linkedin'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="footer-list-content">
+            <div class="footer-list-title">
+              <h4 class="title">My Account</h4>
+            </div>
+            <div class="footer-lists">
+              <ul>
+                <li>Track Orders </li>
+                <li>Shipping </li>
+                <li>Wishlist </li>
+                <li>My Account </li>
+                <li>Order History </li>
+                <li> Returns </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="footer-list-content">
+            <div class="footer-list-title">
+              <h4 class="title">Information</h4>
+            </div>
+            <div class="footer-lists">
+              <ul>
+                <li>Our Story</li>
+                <li>Careers</li>
+                <li>Privacy Policy</li>
+                <li>Latest News</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 con-margin">
+          <div class="footer-list-content">
+            <div class="footer-list-title">
+              <h4 class="title">Talk to Us</h4>
+            </div>
+            <div class="footer-talk-title mb-20">
+              <span>Got Questions? Call us</span>
+              <h4>
+                <a href="tel:+670 413 90 762">+670 413 90 762</a>
+              </h4>
+            </div>
+            <div class="contact-content">
+              <div class="contact-icon">
+                <span>
+                  <span><svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 5C1 2.2 2.6 1 5 1H13C15.4 1 17 2.2 17 5V10.6C17 13.4 15.4 14.6 13 14.6H5"
+                        stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                      <path d="M13 5.40039L10.496 7.40039C9.672 8.05639 8.32 8.05639 7.496 7.40039L5 5.40039"
+                        stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                      <path d="M1 11.4004H5.8" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                        stroke-linecap="round" stroke-linejoin="round">
+                      </path>
+                      <path d="M1 8.19922H3.4" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                        stroke-linecap="round" stroke-linejoin="round">
+                      </path>
+                    </svg></span>
+                </span>
+              </div>
+              <div class="contact-title">
+                <p>
+                  support@shofy.com
+                </p>
+              </div>
+            </div>
+            <div class="contact-content">
+              <div class="contact-icon">
+                <span>
+                  <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8.50001 10.9417C9.99877 10.9417 11.2138 9.72668 11.2138 8.22791C11.2138 6.72915 9.99877 5.51416 8.50001 5.51416C7.00124 5.51416 5.78625 6.72915 5.78625 8.22791C5.78625 9.72668 7.00124 10.9417 8.50001 10.9417Z"
+                      stroke="currentColor" stroke-width="1.5"></path>
+                    <path
+                      d="M1.21115 6.64496C2.92464 -0.887449 14.0841 -0.878751 15.7889 6.65366C16.7891 11.0722 14.0406 14.8123 11.6313 17.126C9.88298 18.8134 7.11704 18.8134 5.36006 17.126C2.95943 14.8123 0.210885 11.0635 1.21115 6.64496Z"
+                      stroke="currentColor" stroke-width="1.5"></path>
+                  </svg>
+                </span>
+              </div>
+              <div class="contact-title">
+                79 Sleepy Hollow St. Jamaica, New York 1432
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <div class="tp-widget-product-categories">
+          <h5 class="tp-widget-product-categories-title"> Health &amp; Beauty: </h5>
+          <div class="tp-widget-product-categories-list">
+            <a href="#" title="Top Brands"> Top Brands </a>
+            <a title="Best Sellers"> Best Sellers</a>
+
+            <a href="#" title="Computers &amp; Laptops"> Computers &amp; Laptops </a>
+            <a href="#" title="Mobile Phone"> Mobile Phone</a>
+            <a href="#" title="CPU Heat Pipes"> CPU Heat Pipes </a>
+            <a href="#" title="Accessories">Accessories </a>
+            <a href="#" title="CPU Coolers"> CPU Coolers </a>
+          </div>
+        </div>
+
+        <div class="tp-widget-product-categories">
+          <h5 class="tp-widget-product-categories-title"> Electronics: </h5>
+          <div class="tp-widget-product-categories-list">
+            <a title="Featured"> Featured </a>
+            <a title="New Arrivals"> New Arrivals</a>
+            <a title="TWS Earphones"> TWS Earphones </a>
+            <a title="Gifts"> Gifts </a>
+            <a title="Computers"> Computers </a><a title="Playstation">
+              Playstation </a>
+          </div>
+        </div>
+
+        <div class="tp-widget-product-categories">
+          <h5 class="tp-widget-product-categories-title"> Sweet Treats: </h5>
+          <div class="tp-widget-product-categories-list">
+            <a title="Headphones"> Headphones </a>
+            <a title="Wireless Headphones">Wireless Headphones </a>
+            <a title="Accessories"> Accessories </a>
+            <a title="TWS Earphones"> TWS Earphones</a>
+            <a title="CPU Coolers"> CPU Coolers</a>
+            <a title="Smart Watch"> Smart Watch</a>
+            <a title="Gaming Console"> Gaming Console </a>
+          </div>
+        </div>
+
+        <div class="tp-widget-product-categories">
+          <h5 class="tp-widget-product-categories-title"> Fashion: </h5>
+          <div class="tp-widget-product-categories-list">
+            <a title="New Arrivals"> New Arrivals</a>
+            <a title="Featured"> Featured </a>
+            <a title="New Arrivals"> New Arrivals</a>
+            <a title="Top Brands"> Top Brands</a>
+            <a title="Electronics"> Electronics</a>
+            <a title="Best Sellers"> Best Sellers </a>
+            <a title="Computers &amp; Laptops"> Computers &amp; Laptops </a><a title="Mobile Phone"> Mobile
+              Phone</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <!-- footer start from here -->
+
+
+  <!-- Bootstrap Js  -->
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+  <!-- Bootstrap Js  -->
+
+  <script src="index.js"></script>
+  <script src="shopping.js"></script>
+  <script src="product.js"></script>
+</body>
+
+</html>
