@@ -1,7 +1,7 @@
 // Ensure no duplicate declarations
 document.addEventListener("DOMContentLoaded", () => {
   const menuIcon = document.getElementById("menuIcon");
-  const closeBtn = document.getElementById("closeBtn");
+  const closeBtn = document.querySelector(".filter-close-btn");
   const mobile_filter_main = document.querySelector(".mobile-filter-main");
 
   if (menuIcon && mobile_filter_main) {
@@ -11,6 +11,5 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   closeBtn.addEventListener("click", () => {
     mobile_filter_main.classList.remove("open");
-    document.style.body = mobile_filter_main.classList.remove("open");
   });
 });
